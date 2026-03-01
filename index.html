@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Breakout</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="hud">
+  <div>Score: <span id="score">0</span></div>
+  <div>Lives: <span id="lives">3</span></div>
+  <div>Status: <span id="status">Waiting to serve (Space)</span></div>
+</div>
+
+  <canvas id="c" width="800" height="500"></canvas>
+
+  <div class="help">
+    Controls: ← → | Space: serve/start | P: pause
+  </div>
+
+  <script src="./game.js"></script>
+</body>
+</html>
